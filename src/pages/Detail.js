@@ -134,7 +134,7 @@ const Detail = () => {
                 </Stack>
             </Grid>
 
-            {obj.userData?.uid && blog.userId === obj.userData.uid ?
+            {obj.userData?.uid && blog.userId === obj.userData.uid && 
               <Grid item xs={4} sm={3} md={media1080px?3:2}>
                     <Stack spacing={2} direction="row" marginBottom=".5rem" justifyContent="center">
                       <Link to={`/update/${id}`}>
@@ -147,7 +147,7 @@ const Detail = () => {
                       </Fab>
                     </Stack>
               </Grid>
-                  : ''}
+                  }
                 </Grid>
           </Grid>
       
