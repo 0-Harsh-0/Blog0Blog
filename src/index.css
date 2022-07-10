@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Poppins:wght@100;200;300;400;500;600&family=Ubuntu:ital,wght@0,400;1,300;1,500;1,700&display=swap');
+body{
+    margin: 0;
+    font-family: 'Poppins';
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: antialiased;
+   height: 100%;
+}
+
+code
+{
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
